@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+/*-----------------------------reset--------------------------  */
+
+*{
+  box-sizing: border-box;
+}
+header, section, footer{
+  width: 100%;
+  text-align: center;
+}
+header{
+  background-color: rgb(34 61 93);
+  color: white;
+}
+header nav{
+  width: 20%;
+  display: inline-block;
+  margin-right: 30%;
+}
+header li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 5%;
+}
+header img, footer img{
+  width: 2%;
+  display: inline-block;
+  margin-right: 30%;
+}
+header button{
+  width: 10%;
+  display: inline-block;
+}
+header + section{
+  width: 100%;
+  text-align: center;
+  background-color: rgb(34 61 93);
+  color: white;
+  padding-bottom: 40px;
+}
+h1{
+  font-size: 40px;
+  margin-top: 0;
+  padding-top: 80px;
+}
+h2{
+  color: navy;
+	margin: 10px
+}
+header + section p{
+  width: 60%;
+  margin-left: 20%;
+	margin-bottom: 20px;
+}
+.midWhite p, .last p{
+  width: 50%;
+  margin-left: 25%;
+	 margin-bottom: 20px;
+}
+.midGrey{
+  background-color: lightgrey;
+	width: 100%;
+	float:left;
+}
+.blue{
+  width: 55%;
+  height: 125px;
+  margin: auto;
+  background-color: rgb(34 61 93);
+}
+.half{
+  width: 49%;
+  padding: 2%;
+	float: left;
+}
+
+footer{
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+footer ul{
+  padding: 0;
+}
+footer li{
+  list-style: none;
+  display: inline-block;
+}
+footer > section{
+  width: 90%;
+  border-bottom: 1px solid white;
+  margin-left: 5%;
+}
+footer nav, footer section section{
+  width: 20%;
+  display: inline-block;
+  text-align: left;
+}
+footer nav{
+  margin-right: 59%;
+}
+
+footer p{
+  width: 65%;
+  text-align: left;
+  display: inline-block;
+  margin-right: 23%;
+}
+footer img{
+  margin-right: 0;
+}
+@media only screen and (max-width:768px){
+}
+footer{
+	display:none;
+}
+section{
+	width:100%;
+}
+@media (min-width: 769px) and (max-width: 1024px){
+	footer nav {
+	margin-right: 39%;
+}
+footer nav, footer section section {
+	width: 29%;
+	 display: inline-block;
+	 text-align: left;
+}

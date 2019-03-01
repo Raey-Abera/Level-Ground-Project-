@@ -1,5 +1,5 @@
 # LEVEL GROUND PROJECT
-I built a simple client website 
+I built a simple client website
 
 ![Level Ground picture](levelground.png)
 
@@ -14,4 +14,3 @@ I would add javascript to give the site behaviors and make it functional.
 ## Lessons Learned:
 
 I learned how to build a website without using any templates and utilizing css to style the page.
-# Level-Ground-Project-
